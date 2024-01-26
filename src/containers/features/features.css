@@ -1,0 +1,9 @@
+.gpt3__features-font__type {
+    font-family: var(--font-family);
+}
+
+@media screen and (max-width: 640px) {
+    .gpt3__features-design {
+        flex-direction: column;
+    }
+}

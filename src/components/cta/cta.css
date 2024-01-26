@@ -1,0 +1,34 @@
+.gradient-cta {
+    border-radius: 10.724px;
+    border: 1px solid #000;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.gpt3__CTA-text__font {
+    font-family: var(--font-family);
+}
+
+.gpt3__cta {
+    height: 11rem;
+}
+
+.gpt3__cta-content > div > h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+    .gpt3__cta-content {
+        flex-direction: column;
+    }
+
+    .gpt3__cta {
+        height: 12rem;
+    }
+
+    .gpt3__cta-content > div > h1 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

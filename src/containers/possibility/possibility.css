@@ -1,0 +1,18 @@
+.gpt3__possibility-font__type h1, .gpt3__possibility-font__type p {
+    font-family: var(--font-family);
+}
+
+.gpt3__possibility {
+    display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    .gpt3__possibility {
+        flex-direction: column;
+    }
+        
+    .gpt3__possibility img {
+        width: 33%;
+        height: 33%;
+    }
+}

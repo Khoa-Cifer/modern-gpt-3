@@ -1,0 +1,88 @@
+.gpt3__footer {
+    background-color: var(--color-footer);
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__footer-heading h1 {
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800;
+    letter-spacing: -2.48px;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 64px;
+}
+
+.gpt3__footer-button,
+.gpt3__footer-copyright {
+    margin: auto;
+}
+
+.gpt3__footer-button button {
+    padding: 20px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gpt3__footer-links {
+    margin-bottom: 80px;
+    margin-top: 180px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.gpt3__footer-links p {
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gpt3__footer-links h5 {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gpt3__footer-links__logo img {
+    margin-bottom: 25px;
+}
+
+.gpt3__footer-links__div h5 {
+    margin-bottom: 36px;
+}
+
+.gpt3__footer-links__div p {
+    margin-bottom: 26px;
+}
+
+.gpt3__footer-copyright {
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 640px) {
+    .gpt3__footer-links {
+        display: grid;
+    }
+
+    .gpt3__footer-links div {
+        margin: 20px;
+    }
+
+    .gpt3__footer-links p {
+        margin: 10px;
+    }
+}
